@@ -1,0 +1,42 @@
+.carousel {
+	position: relative;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 30px;
+}
+
+.image {
+	width: 350px;
+	height: 380px;
+	border-radius: 10px;
+}
+
+.right-arrow {
+	position: absolute;
+	right: -50px;
+	font-size: 3rem;
+	color: 'white';
+	cursor: pointer;
+	user-select: none;
+}
+.left-arrow {
+	position: absolute;
+	left: -50px;
+	font-size: 3rem;
+	color: 'black';
+	cursor: pointer;
+	user-select: none;
+}
+
+.slide {
+	opacity: 0;
+	transition-duration: 1s ease;
+}
+
+.slide.active {
+	opacity: 1;
+	transition-duration: 1s;
+	transform: scale(1.08);
+}

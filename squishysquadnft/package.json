@@ -3,10 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^4.17.2",
+    "aos": "^3.0.0-beta.6",
     "cra-template": "1.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3"
+    "react-elastic-carousel": "^0.11.5",
+    "react-icons": "^4.3.1",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.4",
+    "react-vertical-timeline-component": "^3.5.2",
+    "styled-components": "^5.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "web-vitals": "^2.1.2"
   }
 }
